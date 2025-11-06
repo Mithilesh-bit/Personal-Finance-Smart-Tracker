@@ -1,0 +1,6 @@
+pizza,2500,Food,2025-11-05,upi
+samosa,20,Food,2025-11-05,cash
+cold drink,50,Food,,cash
+medical,100,Health,,upi
+thali,50,Food,,
+pizza,100,Food,2025-11-05,upi
