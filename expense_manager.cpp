@@ -16,7 +16,7 @@ void addTransactionInteractive(vector<Transaction>& transactions, const string& 
     t.category = autoCategorize(t.description);
     cout << "Enter Date (YYYY-MM-DD): ";
     getline(cin, t.date);
-    cout << "Enter Payment Method: ";
+    cout << "Enter Payment Method(CASH,UPI,CARD): ";
     getline(cin, t.payment);
 
     transactions.push_back(t);
@@ -121,3 +121,4 @@ string autoCategorize(string description){
 
     return "Other";
 }
+
